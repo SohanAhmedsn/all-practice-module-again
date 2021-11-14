@@ -1,0 +1,116 @@
+/* body {
+    margin: 0px;
+
+}
+#grad1 {
+  height: 150px;
+  width: 150px;
+  background-color: red; /* For browsers that do not support gradients */
+/* background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+} */
+
+/* #grad2 {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    /* For browsers that do not support gradients */
+/* background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black); */
+/* } */
+
+/* #grad3 { */
+/* height: 150px; */
+/* width: 150px; */
+/* background-color: red; */
+/* For browsers that do not support gradients */
+/* background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black); */
+/* } */
+
+/* #grad4 {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    /* For browsers that do not support gradients */
+/* background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black); */
+/* } */
+
+/* .container { */
+/* width: 700px;
+    height: 1000px;
+    background-color: #FFFFFF;
+    border: 5px solid #ec0537; */
+/* padding-left: 30px; */
+/* /* display: grid; */
+/* grid-template-columns: repeat(2, 1fr); */
+/* } */
+
+/*
+1 = no -color 
+ 2 = bottom, right 
+ 3 = button, right, left
+
+*/
+
+
+/* .div1 {
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    background-color: yellow;
+    background-size: cover;
+    border-radius: 20px solid crimson;
+    background-image: repeating-linear-gradient(#75bcff, #fa0015cc 30%, #b0f6ed 70%); */
+
+/* background-image: linear-gradient(to top, rgba(255, 0, 0, 0.109), rgb(195, 0, 0)); */
+
+/* background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); */
+/* background-image: linear-gradient(#070c0caf, green, yellow); */
+
+/* background-image: linear-gradient(90deg, red, yellow) */
+/* background-image: linear-gradient(to bottom right, green, red); */
+
+
+
+/* background-image: linear-gradient(to right, #aa0303, #fdfd06fb); */
+
+/* background-color: red; */
+/* background-image: linear-gradient(#ff0101, #ffededd5, green, gold, white, black, gray, violet); */
+/* background-color: bisque; */
+/* border: 2px dotted #1e06f6;
+    box-shadow: 15px 20px 36px #01fff2; */
+/* } */
+
+
+.div2 {
+    width: 150px;
+    height: 200px;
+    padding: 50px;
+    background-color: bisque;
+    border: 2px dotted #d5f8d5;
+    box-shadow: 60px -16px teal;
+    background-image: linear-gradient(red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);
+
+    background-image: linear-gradient(red, orange 10% 30%, yellow 50% 70%, green 90%);
+    background-image: linear-gradient(red 0%, orange 10% 30%, yellow 50% 70%, green 90% 100%);
+    ;
+}
+
+/* .div3 {
+    width: 150px;
+    height: 200px;
+    padding: 50px;
+    background-color: bisque;
+    border: 2px dotted #ee078e;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.div4 {
+    width: 150px;
+    height: 200px;
+    padding: 50px;
+    padding-bottom: 20px;
+    background-color: bisque;
+    border: 2px dotted #fd063c;
+    box-shadow: inset 5em 1em gold;
+} */

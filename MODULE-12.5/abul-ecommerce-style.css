@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.x-box-image{
+    background-color: #5454fd;
+    font-family: 'Poppins', sans-serif;
+    transition: translate(20deg);
+
+}
+.x-box-image img{
+    transform: matrix3d(-1, 0, 0, 1, 0, 0);
+}

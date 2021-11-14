@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform-2</title>
+    <style>
+        div{
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid #f70404;
+            border-radius: 50px solid red;
+        }
+
+        div#myDiv{
+            -ms-transform: rotate(20deg);
+
+            transform: rotate(20deg);
+            border-radius: 5px solid red;
+        }
+        #myDiv3{
+            transform: rotate(-30deg);
+        }
+        #myDiv4{
+            transform: rotate(30deg);
+        }
+        #myDiv5{
+            transform: rotate(-30deg);
+        }
+        #myDiv6{
+            transform: rotate(30deg);
+        }
+
+    </style>
+</head>     
+<body>
+    <h1>the rotate method()</h1>
+    <div>
+        <p>this is normal div</p>
+    </div>
+    
+    <div id="myDiv">
+        <p>this is 20deg div</p>
+    </div>
+
+    <div id="myDiv3">
+        this is div three
+    </div>
+    <div id="myDiv4">
+        <p>this is div four</p>
+    </div>
+    <div id="myDiv5">
+        <p>this is div four</p>
+    </div>
+    <div id="myDiv6">
+        <p>this is div four</p>
+    </div>
+   
+    
+</body>
+</html>

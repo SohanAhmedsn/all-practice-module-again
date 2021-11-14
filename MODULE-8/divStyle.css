@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.container {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.firstDiv {
+    background-color: #FFFFFF;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+
+.secondDiv {
+    background-color: #ffffff80;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.divOne {
+    width: 100px;
+    height: 50px;
+    background-color: #fd1e01;
+    border-radius: 3px solid #fbf5f5;
+    border: 3px solid;
+    padding-bottom: 20px;
+    transform: translate(2, 3);
+    background-image: linear-gradient(right to, #f00303, #0400fb, #f60216);
+
+}
+
+.divOne:hover {
+    transform: translate(1, 3);
+    background-color: aqua;
+    width: 110px;
+    height: 110px;
+    z-index: 2;
+}
+
+.divTwo {
+    width: 100px;
+    height: 50px;
+    background-color: #fd2701f5;
+    border: 3px solid;
+    padding-bottom: 20px;
+
+}
+
+.divTwo:hover {
+    transform: translate(1, 3);
+    transform: rotate(180deg);
+    width: 110px;
+    height: 110px;
+}
+
+.divThree {
+    width: 100px;
+    height: 50px;
+    background-color: #fd1e01f5;
+    border: 3px solid;
+    padding-bottom: 20px;
+}
+
+.divThree:hover {
+    transform: translate(1, 3) 1s ease-out;
+    width: 110px;
+    height: 110px;
+}
+
+.divFour {
+    width: 100px;
+    height: 50px;
+    border: 3px solid;
+    background-color: #fd1e01f5;
+    padding-bottom: 20px;
+}
+
+.divFour:hover {
+    transform: translate(1, 3);
+    width: 110px;
+    height: 110px;
+}
+
+.divFive {
+    width: 100px;
+    height: 50px;
+    background-color: #fd1e01f5;
+    border: 3px solid;
+    padding-bottom: 20px;
+}
+
+.divFive:hover {
+    transform: translate(1, 3);
+    width: 110px;
+    height: 110px;
+    transform: rotate(45deg);
+}
+
+.divSix {
+    width: 100px;
+    height: 50px;
+    background-color: #fd1e01f5;
+    border: 3px solid;
+    padding-bottom: 20px;
+}
+
+.divSix:hover {
+    transform: translate(1, 3);
+    width: 110px;
+    height: 110px;
+}

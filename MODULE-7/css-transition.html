@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+
+    <style>
+        .div-translate{
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            transform: translate(500px, 1px);
+        }
+        .div-rotate-one{
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            
+        }
+        .div-rotate-two{
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            transform: rotate(20deg);
+        }
+        .div-transform-scale{
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            margin-top: 300px;
+            transform: scale(0.9, 2);
+
+            
+        }
+
+        /* div-transform-scale -X  */
+        .div-transform-Xscale{
+            width: 250px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            margin-top: 300px;
+            transform: scaleX(.9);
+ 
+        }
+        .div-transform-skew{
+            width: 250px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            margin-top: 300px;
+            margin-left: 50px;
+            text-align: center;
+            text-transform:capitalize;
+            padding-top: 30px;
+            transform: skew(-30deg);
+ 
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores iusto consectetur quam fuga, eius facilis nisi qui soluta nobis cum?</p>
+    <div class="div-translate">
+        This div element is moved 50 pixels to the right, and 100 pixels down from its current position.
+    </div>
+
+    <hr>
+
+    <div class="div-rotate-one">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, placeat!
+    </div>
+    <div class="div-rotate-two">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, placeat!
+    </div>
+
+    <hr><hr><hr>
+
+    <div class="div-transform-scale">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic pariatur officiis sunt! Ad nam amet maxime iure similique magni id.
+    </div>
+
+    <hr>
+    <hr>
+
+    <br>
+    <div class="div-transform-Xscale">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dolore omnis praesentium at dolor molestias expedita ratione quam ut itaque.
+
+    </div>
+
+    <hr><hr>
+    <br>
+    <div class="div-transform-skew">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, asperiores!
+    </div>
+</body>
+</html>

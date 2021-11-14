@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment</title>
+</head>
+
+<body>
+    <h2>Comment hello js</h2>
+    <section>
+        <h4>Your comments</h4>
+        <div id="comment-container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laboriosam nesciunt eligendi dolorem alias aliquid. Quaerat tempora ex quidem enim adipisci unde assumenda exercitationem voluptate nobis. Eligendi recusandae cum voluptatum!</p>
+            <p>In deserunt deleniti laborum ad doloremque harum voluptatem necessitatibus quod architecto alias eius aperiam molestiae maxime enim nesciunt, officia officiis quae. Laboriosam eaque soluta quae corporis ducimus dolorem autem cupiditate!</p>
+
+        </div>
+    </section>
+
+    <div>
+
+        <textarea name="" id="new-comment" cols="60" rows="4"></textarea>
+        <br>
+        <button id="submit-comment">Post commetn</button>
+    </div>
+
+    <script>
+        //1.add btn event handler
+        document.getElementById('submit-comment').addEventListener('click', function() {
+            // console.log('clicked');
+            //step number two
+            //2.get user event handler
+            const commentBox = document.getElementById('new-comment');
+            // console.log(commentBox.value);
+
+            const userComment = commentBox.value;
+
+            //3. create comment paragraph:
+
+            const newComment = document.createElement('p');
+            newComment.innerText = commentBox.value;
+
+            //4.append the comment handler
+            const commentContainer = document.getElementById('comment-container');
+            commentContainer.appendChild(newComment);
+
+            //5 clean the commetn box3
+
+            commentBox.value = '';
+        })
+    </script>
+
+
+</body>
+
+</html>
